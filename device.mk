@@ -204,7 +204,8 @@ PRODUCT_COPY_FILES += \
 
 # GPS
 PRODUCT_PACKAGES += \
-    gps.msm8992
+    gps.msm8992 \
+    libgps.utils
 
 # NFC packages
 PRODUCT_PACKAGES += \
@@ -214,7 +215,8 @@ PRODUCT_PACKAGES += \
 
 # Fingerprint Sensor
 PRODUCT_PACKAGES += \
-    fingerprint.bullhead
+    fingerprint.bullhead \
+    fingerprintd
 
 # Wi-Fi
 PRODUCT_PACKAGES += \
