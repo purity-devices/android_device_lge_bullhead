@@ -26,6 +26,6 @@ PRODUCT_MODEL := Nexus 5X
 PRODUCT_RESTRICT_VENDOR_FILES := false
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BUILD_FINGERPRINT="google/bullhead/bullhead:7.1.1/N4F26O/3582057:user/release-keys" \
-    PRIVATE_BUILD_DESC="bullhead-user 7.1.1 N4F26O 3582057 release-keys"
+    BUILD_FINGERPRINT="google/bullhead/bullhead:7.1.1/N4F26T/3687331:user/release-keys" \
+    PRIVATE_BUILD_DESC="bullhead-user 7.1.1 N4F26T 3687331 release-keys"
 
