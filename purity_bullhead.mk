@@ -1,11 +1,11 @@
 # Inherit omni-specific board config
-include device/lge/bullhead/BoardConfigOmni.mk
+include device/lge/bullhead/BoardConfigPurity.mk
 
 # Inherit base AOSP device configuration
 $(call inherit-product, device/lge/bullhead/aosp_bullhead.mk)
 
 # Inherit from our custom product configuration
-$(call inherit-product, vendor/omni/config/common.mk)
+$(call inherit-product, vendor/purity/config/common.mk)
 
 # Allow tethering without provisioning app
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -23,8 +23,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     device/lge/bullhead/twrp.fstab:recovery/root/etc/twrp.fstab
 
-# Override product naming for Omni
-PRODUCT_NAME := omni_bullhead
+# Override product naming for Purity
+PRODUCT_NAME := purity_bullhead
 PRODUCT_BRAND := google
 PRODUCT_MODEL := Nexus 5X
 PRODUCT_RESTRICT_VENDOR_FILES := false

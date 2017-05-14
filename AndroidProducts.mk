@@ -16,4 +16,4 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/aosp_bullhead.mk \
-    $(LOCAL_DIR)/omni_bullhead.mk
+    $(LOCAL_DIR)/purity_bullhead.mk
